@@ -120,6 +120,7 @@ function initDoors(params){
         fadeOut(document.querySelector('.door__wrapper'));
         fadeIn(document.querySelector(params.selectors.form));
         start_timer();
+        document.getElementById('prod_bottom_image').style.display = "none";
       }, 3000);
     }
 
